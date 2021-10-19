@@ -348,3 +348,55 @@ a {
   }
 }
 /* end of products */
+/* contact us */
+.contact {
+  padding-top: 2rem;
+  background: var(--bright);
+}
+.contact-item {
+  margin-bottom: 3rem;
+}
+.contact-title {
+  color: var(--coffee1);
+  font-family: var(--googlefont1);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: calc(var(--letterspacing) * 2);
+  margin-bottom: 0.5rem;
+}
+.contact-text {
+  text-transform: uppercase;
+  font-family: var(--googlefont3);
+  /* font-family: monospace; */
+  font-size: 1.5rem;
+  color: #4a2c2a;
+  width: 26rem;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid var(--coffee1);
+  outline: none;
+  margin: 2rem 0;
+  padding: 1.3rem 0;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.form-control::placeholder {
+  color: var(--coffee1);
+  text-transform: capitalize;
+  letter-spacing: var(--letterspacing);
+}
+@media only screen and (min-width: 900px) {
+  .contact-info,
+  .contact-form {
+    float: left;
+    width: 40%;
+    padding: 0 3rem;
+  }
+  .contact-info {
+    padding: 1rem 0;
+  }
+}
+/* end of contact us */
