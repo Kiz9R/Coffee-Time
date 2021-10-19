@@ -38,7 +38,7 @@ a {
   text-align: center;
 }
 .text-primary {
-  color: var(--coffee1);
+  color: var(--bright);
 }
 /* clear fix */
 .clearfix:after,
