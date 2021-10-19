@@ -38,7 +38,7 @@ a {
   text-align: center;
 }
 .text-primary {
-  color: var(--dark);
+  color: var(--coffee1);
 }
 /* clear fix */
 .clearfix:after,
@@ -65,6 +65,25 @@ a {
   font-size: 2rem;
   font-family: var(--googlefont3);
   text-transform: uppercase;
+}
+/* navigation btn */
+.nav-btn {
+  position: absolute;
+  color: var(--coffee2);
+  margin: 1.5rem 2rem;
+  font-size: 2rem;
+  animation: bounce 2s ease-in-out infinite;
+}
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 /* navgation bar */
 
@@ -400,3 +419,25 @@ a {
   }
 }
 /* end of contact us */
+/* footer */
+.footer {
+  background: var(--dark);
+}
+.social-icon {
+  color: var(--bright);
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  transition: var(--transition);
+}
+.social-icon:hover {
+  color: orange;
+}
+.footer-text {
+  text-transform: uppercase;
+  /* color: var(--bright); */
+  color: orange;
+  letter-spacing: var(--letterspacing);
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+/* end of footer */
